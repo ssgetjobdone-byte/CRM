@@ -1,0 +1,8 @@
+diff --git a/frontend/app/globals.css b/frontend/app/globals.css
+new file mode 100644
+index 0000000000000000000000000000000000000000..946679928de057fd27ca8290434494f5d0d99b91
+--- /dev/null
++++ b/frontend/app/globals.css
+@@ -0,0 +1,2 @@
++@import "tailwindcss";
++body { font-family: Inter, system-ui, sans-serif; }
