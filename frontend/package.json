@@ -1,0 +1,32 @@
+diff --git a/frontend/package.json b/frontend/package.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..f8c43c769103d2b38f3dd4fd91a3847b18436c5d
+--- /dev/null
++++ b/frontend/package.json
+@@ -0,0 +1,26 @@
++{
++  "name": "kamla-horeca-frontend",
++  "version": "1.0.0",
++  "private": true,
++  "scripts": {
++    "dev": "next dev",
++    "build": "next build",
++    "start": "next start",
++    "lint": "next lint"
++  },
++  "dependencies": {
++    "axios": "^1.11.0",
++    "next": "15.4.6",
++    "react": "19.1.1",
++    "react-dom": "19.1.1",
++    "react-hook-form": "^7.62.0",
++    "recharts": "^2.15.4",
++    "tailwindcss": "^4.1.12",
++    "zod": "^4.1.5"
++  },
++  "devDependencies": {
++    "@types/node": "^22.17.1",
++    "@types/react": "^19.1.10",
++    "typescript": "^5.9.2"
++  }
++}
