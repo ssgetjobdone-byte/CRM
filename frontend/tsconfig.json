@@ -1,0 +1,41 @@
+diff --git a/frontend/tsconfig.json b/frontend/tsconfig.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..943ece7b36e8797bcd5d17156d7a90a04cf21ccf
+--- /dev/null
++++ b/frontend/tsconfig.json
+@@ -0,0 +1,34 @@
++{
++  "compilerOptions": {
++    "target": "ES2022",
++    "lib": [
++      "dom",
++      "dom.iterable",
++      "esnext"
++    ],
++    "allowJs": false,
++    "skipLibCheck": true,
++    "strict": true,
++    "noEmit": true,
++    "esModuleInterop": true,
++    "module": "esnext",
++    "moduleResolution": "bundler",
++    "resolveJsonModule": true,
++    "isolatedModules": true,
++    "jsx": "preserve",
++    "incremental": true,
++    "baseUrl": ".",
++    "paths": {
++      "@/*": [
++        "./*"
++      ]
++    }
++  },
++  "include": [
++    "**/*.ts",
++    "**/*.tsx"
++  ],
++  "exclude": [
++    "node_modules"
++  ]
++}
+\ No newline at end of file
