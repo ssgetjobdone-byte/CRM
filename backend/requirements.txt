@@ -1,0 +1,19 @@
+diff --git a/backend/requirements.txt b/backend/requirements.txt
+new file mode 100644
+index 0000000000000000000000000000000000000000..8819ac63f4ce04450ee80727c0af24890706cb93
+--- /dev/null
++++ b/backend/requirements.txt
+@@ -0,0 +1,13 @@
++fastapi==0.116.1
++uvicorn[standard]==0.35.0
++sqlalchemy==2.0.41
++psycopg2-binary==2.9.10
++alembic==1.16.4
++pydantic[email]==2.11.7
++pydantic-settings==2.10.1
++python-jose[cryptography]==3.5.0
++passlib[bcrypt]==1.7.4
++python-multipart==0.0.20
++openpyxl==3.1.5
++weasyprint==66.0
++jinja2==3.1.6
